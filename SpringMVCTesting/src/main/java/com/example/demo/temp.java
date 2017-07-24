@@ -7,7 +7,7 @@ public class temp {
 	
 	public static void print(){
 		System.out.println("method is call for checking...");
-		System.out.println("check for changess...");
+			
 	}
 	
 	
