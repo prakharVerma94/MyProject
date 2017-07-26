@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.mvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @EnableConfigurationProperties
 @Configuration
 @SpringBootApplication
-@ComponentScan("com.example.demo")
+@ComponentScan("com.mvc")
 public class SpringMvcTestingApplication extends SpringBootServletInitializer{
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {

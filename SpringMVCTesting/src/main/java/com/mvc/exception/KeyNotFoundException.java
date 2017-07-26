@@ -1,4 +1,4 @@
-package com.example.objectMap;
+package com.mvc.exception;
 
 public class KeyNotFoundException extends RuntimeException {
 	

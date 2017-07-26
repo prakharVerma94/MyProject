@@ -1,7 +1,7 @@
 package my.custom.pack;
 
 import com.example.demo.temp;
-import com.example.objectMap.ObjectHash;
+import com.mvc.util.ObjectHash;
 
 public class Address {
 

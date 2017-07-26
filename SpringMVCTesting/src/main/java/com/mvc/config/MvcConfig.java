@@ -1,10 +1,12 @@
-package com.example.demo;
+package com.mvc.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+import com.mvc.security.TestInterceptor;
 
 @Configuration
 public class MvcConfig  extends WebMvcConfigurerAdapter{

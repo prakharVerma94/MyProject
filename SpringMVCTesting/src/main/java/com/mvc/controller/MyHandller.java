@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.mvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,8 +14,6 @@ public class MyHandller {
 	public String index(){
 		return "index";
 	}
-	
-
 	
 	@RequestMapping("/greeting")
 	public String greeting(@RequestParam(value="name", required=false, defaultValue="World") String name, Model model){
