@@ -15,9 +15,12 @@ public class temp {
 	}
 	
 	public void chnage(){
+
 		System.out.println("prakhar chnages;;;");
-		
+	
 	}
+	
+
 	
 	
 }
