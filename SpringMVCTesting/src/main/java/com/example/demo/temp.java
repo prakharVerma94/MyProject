@@ -15,9 +15,9 @@ public class temp {
 	}
 	
 	public void chnage(){
-		
-		
+		System.out.println("prashank's chanages");
 	}
+
 	
 	
 }
