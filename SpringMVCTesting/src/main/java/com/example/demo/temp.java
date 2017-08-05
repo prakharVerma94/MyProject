@@ -9,6 +9,7 @@ class temp {
 	public void chnage(){
 
 		System.out.println("prakhar chnages;;;");
+		System.out.println("prakhar chnages;;;");
 
 	}
 
