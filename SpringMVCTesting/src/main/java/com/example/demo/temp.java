@@ -5,17 +5,13 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 class temp {
-	
+
 	public void chnage(){
 
 		System.out.println("prakhar chnages;;;");
-		System.out.println("prashank's changes");
 
-		System.out.println("prakhar"
-				+ "'s changes");
-		
-}
-	
+	}
+
 	/* static  int queries;
     static  int K;
     static  String A[];
@@ -41,7 +37,7 @@ class temp {
     }*/
 
 	public static long decimalNumberLength(long number){
-		
+
 		long   count = 0; 
 		do{
 			System.out.print((number % 2)+" ");
@@ -66,7 +62,7 @@ class temp {
 		System.out.println("max memory in heap " +maxInMB+ "MB     :   "+(maxInMB /1024)+" in GB" );
 
 		System.out.println("avalable apace in heap " +((Runtime.getRuntime().freeMemory()/1024 )/1024)+" MB      :   "+(((Runtime.getRuntime().freeMemory()/1024 )/1024) /1024)+" in GB"  );
-		
+
 		System.out.println("After memory allocation................");
 		//    String sss = new String("111111111111111111111111111111111111111111111111111111111111111");
 
@@ -76,7 +72,7 @@ class temp {
 		StringBuilder s=null;
 
 		//long number = 682622976;
-	
+
 		//String str = new String( "");
 
 		try{
